@@ -11,7 +11,7 @@ public Plugin myinfo =
 
 public void OnPluginStart()
 {
-	RegConsoleCmd("menu_test", Menu_Test1);
+	RegConsoleCmd("sm_menu", Menu_Test1);
 }
 
 public int MenuHandler1(Menu menu, MenuAction action, int param1, int param2)
