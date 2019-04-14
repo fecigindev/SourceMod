@@ -26,7 +26,7 @@ public Action usp(int client, int args) {
 public Action awp(int client, int args) {
 	GivePlayerItem(client, "weapon_awp");
 }
-public Action awp(int client, int args) {
+public Action m4a1(int client, int args) {
 	GivePlayerItem(client, "weapon_m4a1");
 }
 public Action knife(int client, int args) {
